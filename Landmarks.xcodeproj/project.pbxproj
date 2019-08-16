@@ -13,6 +13,11 @@
 		4D33BF3D2303AC6500043C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D33BF3C2303AC6500043C30 /* Assets.xcassets */; };
 		4D33BF402303AC6500043C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D33BF3F2303AC6500043C30 /* Preview Assets.xcassets */; };
 		4D33BF432303AC6500043C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D33BF412303AC6500043C30 /* LaunchScreen.storyboard */; };
+		4D33BF4B23061FDD00043C30 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33BF4A23061FDD00043C30 /* CircleImage.swift */; };
+		4D33BF4D230624F800043C30 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33BF4C230624F800043C30 /* MapView.swift */; };
+		4D6A58BA23062F3D005FF237 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A58B923062F3D005FF237 /* LandmarkRow.swift */; };
+		4D6A58BC23062F79005FF237 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A58BB23062F79005FF237 /* Landmark.swift */; };
+		4D6A58BE23062F85005FF237 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D6A58BD23062F85005FF237 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		4D33BF3F2303AC6500043C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D33BF422303AC6500043C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D33BF442303AC6500043C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D33BF4A23061FDD00043C30 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4D33BF4C230624F800043C30 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4D6A58B923062F3D005FF237 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		4D6A58BB23062F79005FF237 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		4D6A58BD23062F85005FF237 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				4D33BF362303AC6400043C30 /* AppDelegate.swift */,
 				4D33BF382303AC6400043C30 /* SceneDelegate.swift */,
 				4D33BF3A2303AC6400043C30 /* ContentView.swift */,
+				4D6A58B923062F3D005FF237 /* LandmarkRow.swift */,
+				4D33BF4C230624F800043C30 /* MapView.swift */,
+				4D33BF4A23061FDD00043C30 /* CircleImage.swift */,
+				4D6A58BB23062F79005FF237 /* Landmark.swift */,
+				4D6A58BD23062F85005FF237 /* landmarkData.json */,
 				4D33BF3C2303AC6500043C30 /* Assets.xcassets */,
 				4D33BF412303AC6500043C30 /* LaunchScreen.storyboard */,
 				4D33BF442303AC6500043C30 /* Info.plist */,
@@ -134,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D33BF432303AC6500043C30 /* LaunchScreen.storyboard in Resources */,
+				4D6A58BE23062F85005FF237 /* landmarkData.json in Resources */,
 				4D33BF402303AC6500043C30 /* Preview Assets.xcassets in Resources */,
 				4D33BF3D2303AC6500043C30 /* Assets.xcassets in Resources */,
 			);
@@ -146,7 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6A58BC23062F79005FF237 /* Landmark.swift in Sources */,
 				4D33BF372303AC6400043C30 /* AppDelegate.swift in Sources */,
+				4D33BF4B23061FDD00043C30 /* CircleImage.swift in Sources */,
+				4D6A58BA23062F3D005FF237 /* LandmarkRow.swift in Sources */,
+				4D33BF4D230624F800043C30 /* MapView.swift in Sources */,
 				4D33BF392303AC6400043C30 /* SceneDelegate.swift in Sources */,
 				4D33BF3B2303AC6400043C30 /* ContentView.swift in Sources */,
 			);
